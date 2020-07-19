@@ -6,4 +6,5 @@ def hannuota(n,a,b,c):
     print(f'{a} ==> {c}')
     hannuota(n-1,b,a,c)
 
-hannuota(3,"A","B","C")
+if __name__ == "__main__":
+    hannuota(3,"A","B","C")
